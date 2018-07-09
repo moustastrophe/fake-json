@@ -1,19 +1,24 @@
 {
-    "Profiles": [
+    "Columns": [
         {
             "id": 1,
-            "name": "John",
-            "age": 21
+            "title": "On Hold"
         },
         {
             "id": 2,
-            "name": "Judy",
-            "age": 31
+            "title": "Not Started"
         },
         {
             "id": 3,
-            "name": "Jack",
-            "age": 41
+            "title": "Priorities"
+        },
+        {
+            "id": 4,
+            "title": "Investigation"
+        },
+        {
+            "id": 5,
+            "title": "Spec"
         }
     ]
 }
