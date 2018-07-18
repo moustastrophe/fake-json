@@ -1,24 +1,129 @@
 {
-    "Columns": [
-        {
-            "id": 1,
-            "title": "On Hold"
+    "d": {
+        "__type": "TCards.Rework.Models.Requests.TBoardOpenResponse",
+        "TBoard": {
+            "Id": 10000,
+            "Title": "TBoard 1",
+            "Columns": [
+                "Column 1",
+                "Column 2"
+            ],
+            "NumberOfRows": 20,
+            "RowType": 1,
+            "RowHeaders": null
         },
-        {
-            "id": 2,
-            "title": "Not Started"
-        },
-        {
-            "id": 3,
-            "title": "Priorities"
-        },
-        {
-            "id": 4,
-            "title": "Investigation"
-        },
-        {
-            "id": 5,
-            "title": "Spec"
-        }
-    ]
+        "Designs": [
+            {
+                "Id": 10,
+                "Title": "Design 1",
+                "NumberOfTitles": 2,
+                "Fields": [
+                    {
+                        "Id": 1000,
+                        "Title": "Text Field 1",
+                        "DefinedFieldType": 1,
+                        "AutoPopCreator": false,
+                        "AutoPopulate": false,
+                        "CalcId": null,
+                        "MaxChars": null,
+                        "MaxNumber": null,
+                        "MinNumber": null,
+                        "ListItems": null
+                    },
+                    {
+                        "Id": 2000,
+                        "Title": "Text Field 2",
+                        "DefinedFieldType": 1,
+                        "AutoPopCreator": false,
+                        "AutoPopulate": false,
+                        "CalcId": null,
+                        "MaxChars": null,
+                        "MaxNumber": null,
+                        "MinNumber": null,
+                        "ListItems": null
+                    }
+                ],
+                "Colours": [
+                    {
+                        "Id": 100,
+                        "Title": "Green",
+                        "HexCode": "00ff00"
+                    },
+                    {
+                        "Id": 200,
+                        "Title": "Red",
+                        "HexCode": "ff0000"
+                    }
+                ]
+            }
+        ],
+        "TCards": [
+            {
+                "Id": 100000,
+                "ColumnPosition": 1,
+                "RowPosition": 1,
+                "ColourId": 100,
+                "IsLocked": false,
+                "Version": 1,
+                "FieldDatas": [
+                    {
+                        "Id": 1000000,
+                        "FieldId": 1000,
+                        "Text": "Data 1",
+                        "DateOrTime": null,
+                        "WholeNumber": null,
+                        "Fraction": null,
+                        "SelectedListItemId": null,
+                        "IsChecked": false,
+                        "CalcResult": null
+                    },
+                    {
+                        "Id": 2000000,
+                        "FieldId": 2000,
+                        "Text": "Data 2",
+                        "DateOrTime": null,
+                        "WholeNumber": null,
+                        "Fraction": null,
+                        "SelectedListItemId": null,
+                        "IsChecked": false,
+                        "CalcResult": null
+                    }
+                ],
+                "Attachments": null
+            },
+            {
+                "Id": 200000,
+                "ColumnPosition": 2,
+                "RowPosition": 5,
+                "ColourId": 200,
+                "IsLocked": false,
+                "Version": 1,
+                "FieldDatas": [
+                    {
+                        "Id": 3000000,
+                        "FieldId": 1000,
+                        "Text": "Data 3",
+                        "DateOrTime": null,
+                        "WholeNumber": null,
+                        "Fraction": null,
+                        "SelectedListItemId": null,
+                        "IsChecked": false,
+                        "CalcResult": null
+                    },
+                    {
+                        "Id": 4000000,
+                        "FieldId": 2000,
+                        "Text": "Data 4",
+                        "DateOrTime": null,
+                        "WholeNumber": null,
+                        "Fraction": null,
+                        "SelectedListItemId": null,
+                        "IsChecked": false,
+                        "CalcResult": null
+                    }
+                ],
+                "Attachments": null
+            }
+        ]
+    }
 }
